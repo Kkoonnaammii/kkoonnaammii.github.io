@@ -1,0 +1,43 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+
+}
+
+body {
+	background-image: url(ham-kris-DcQnRJ1SHHw-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-family: Cooper,Georgia,Times,Times New Roman,serif;
+}
+
+header {
+  margin-top: 200px;
+}
+
+h1 {
+	font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: -.03125rem;
+    line-height: 1;
+    vertical-align: middle;
+    color: #241c15;
+    background-color: rgba(169, 200, 251, 0.4);
+}
+
+hr {
+	max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+  margin-top: 100px;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
